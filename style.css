@@ -4,13 +4,18 @@
     gap: 20px;
 }
 .country{
-    background-color: rgb(131, 122, 140);
+    background-color: rgb(235, 232, 238);
     border: 2px solid green;
     padding: 15px;
     border-radius: 15px;
 }
+.country:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.2s;
+}
 .flags-images{
     width: 250px;
+    height: 130px;
 }
 .country-name{
     color: crimson;

@@ -1,0 +1,18 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.country{
+    background-color: rgb(131, 122, 140);
+    border: 2px solid green;
+    padding: 15px;
+    border-radius: 15px;
+}
+.flags-images{
+    width: 250px;
+}
+.country-name{
+    color: crimson;
+    font-weight: 700;
+}
